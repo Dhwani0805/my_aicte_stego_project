@@ -34,8 +34,8 @@ Text Files
 
 Installation
 1. Clone the Repository: 
-   git clone  
-   cd 
+   git clone  https://github.com/Dhwani0805/my_aicte_stego_project.git
+   cd my_aicte_stego_project
    
 3. Set Up a Virtual Environment (Optional):
    python3 -m venv venv
