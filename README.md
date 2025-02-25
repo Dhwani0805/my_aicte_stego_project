@@ -33,13 +33,14 @@ Text Files
 •	pixel_log_stego_with_gui&stealthmode.txt – Stores the randomized pixel modifications from stealth mode encryption.
 
 Installation
-1. Clone the Repository
+1. Clone the Repository: 
    git clone  
-   cd steganography-tool
-2. Set Up a Virtual Environment (Optional)
+   cd 
+   
+3. Set Up a Virtual Environment (Optional):
    python3 -m venv venv
    source venv\Scripts\activate  # On Windows
-3. Install Dependencies
+4. Install Dependencies: 
    pip install -r requirements.txt
 
 Usage:
@@ -47,14 +48,14 @@ Without GUI
 Encryption
 1.	Open Encryption_stego_without_gui&stealthmode.ipynb in Jupyter Notebook.
 2.	Run all cells to: 
-o	Load the cover image.
-o	Embed the secret message sequentially in the LSBs.
-o	Save the stego-image as encryptedImage__without_gui&stealthMode.png.
+   -Load the cover image.
+   -Embed the secret message sequentially in the LSBs.
+   -Save the stego-image as encryptedImage__without_gui&stealthMode.png.
 Decryption
 1.	Open Decryption_stego_without_gui&stealthmode.ipynb in Jupyter Notebook.
 2.	Run all cells to: 
-o	Verify the password.
-o	Extract the hidden message using sequential LSB extraction.
+   -Verify the password.
+   -Extract the hidden message using sequential LSB extraction.
 
 With GUI (Stealth Mode Enabled)
 1.	Run stego_with_gui&stealthmode.ipynb.
@@ -87,11 +88,11 @@ Security Strength:
 
 How to Compare the Pixel Log Files
 1.	Open the log files side by side
-o	pixel_log_without_gui&stealthMode.txt (Sequential LSB method)
-o	pixel_log_stego_with_gui&stealthmode.txt (Stealth Mode method)
+   -pixel_log_without_gui&stealthMode.txt (Sequential LSB method)
+   -pixel_log_stego_with_gui&stealthmode.txt (Stealth Mode method)
 2.	Analyze the modification patterns
-o	Sequential LSB: Pixels are modified in order, creating a pattern.
-o	Stealth Mode: Modifications are randomized, reducing detectability.
+   -Sequential LSB: Pixels are modified in order, creating a pattern.
+   -Stealth Mode: Modifications are randomized, reducing detectability.
 
 Key Findings from Pixel Log Analysis
 •	Sequential LSB is easier to detect due to structured modifications.
